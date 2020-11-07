@@ -29,15 +29,22 @@ header a:hover{
 }
 
 #img-div {
-    text-align: left;
+    text-align: center;
     font-style: italic;
-    font-size: smaller;
+    font-size: smaller; 
   }
 
 #image{
-    width: 10.4%;
-    height: 20%;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    max-width: 20%;
+    max-height: fit-content;
+}
+
+#img-caption{
+    padding-top: 0%;
 }
 
 #preamble{
@@ -59,3 +66,13 @@ header a:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
+
+#tribute-info{
+    float: left;
+}
+
+#tribute-link{
+    color: blue;
+    text-decoration: underline;
+}
+
